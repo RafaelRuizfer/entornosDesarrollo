@@ -1,10 +1,11 @@
 #cuerpo{
-    width: 630px;
+    width: 1000px;
+    height: 500px;
     margin:auto;
     background-color:#d2a0f3;
     padding:10px;
     border-width:2px;
-    border-color: black;
+    border-color: grey;
     border-style:solid;
     border-radius: 15px;
     box-shadow:10px 10px 10px ;
@@ -12,9 +13,19 @@
 h1{
     text-align: center;
 }
-#imagenComit{
-    width: 400px;
-    height: 300px;
-    background-image: url();
+.texto{
+    float: left;
+    width: 650px;
+}
+.imagenComit{
+    
     background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+img{
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
 }
